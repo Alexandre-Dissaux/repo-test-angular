@@ -1,0 +1,37 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~shared/*": ["src/app/shared/*"],
+      "~sejour/*": ["src/app/sejour/*"],
+      "~demande-asile/*": ["src/app/demande-asile/*"],
+      "~site/*": ["src/app/site/*"],
+      "~usager/*": ["src/app/usager/*"],
+      "~gu-enregistrement/*": ["src/app/gu-enregistrement/*"],
+      "~environments/*": ["src/environments/*"]
+    },
+    "outDir": "./dist/out-tsc",
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "resolveJsonModule": true
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  }
+}
